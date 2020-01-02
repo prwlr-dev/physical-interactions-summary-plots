@@ -1,0 +1,11 @@
+graph  {
+"no orthologs";
+"orthologs in other fungi";
+"orthologs diversed in eukaryotic taxa";
+"no orthologs" -- "no orthologs" [color=grey, penwidth="1"];
+"orthologs in other fungi" -- "orthologs in other fungi" [color=green, penwidth=2];
+"no orthologs" -- "orthologs in other fungi" [color=green, penwidth=2];
+"no orthologs" -- "orthologs diversed in eukaryotic taxa" [color=green, penwidth=2];
+"orthologs in other fungi" -- "orthologs diversed in eukaryotic taxa" [color=green, penwidth=3];
+"orthologs diversed in eukaryotic taxa" -- "orthologs diversed in eukaryotic taxa" [color=green, penwidth=5];
+}

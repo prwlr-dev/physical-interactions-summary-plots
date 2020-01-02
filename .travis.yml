@@ -1,0 +1,9 @@
+addons:
+  apt:
+    packages:
+      - graphviz
+script:
+  # Conversion to png
+  - dot -T png fungi.dot > fungi.png
+  # Conversion to svg
+  - dot -T svg fungi.dot > fungi.svg
