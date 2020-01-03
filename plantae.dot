@@ -1,0 +1,6 @@
+graph {
+"orthologs in other plants (Volvox carteri)";
+"orthologs diversed in eukaryotic taxa";
+"orthologs in other plants (Volvox carteri)" -- "orthologs diversed in eukaryotic taxa" [color=green, penwidth=2];
+"orthologs diversed in eukaryotic taxa" -- "orthologs diversed in eukaryotic taxa" [color=green, penwidth=5];
+}
