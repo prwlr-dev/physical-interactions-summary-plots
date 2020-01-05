@@ -1,0 +1,29 @@
+graph {
+"Eukarya";
+"Arabidopsis thaliana";
+"Volvox carteri";
+"Caenorhabditis elegans";
+"Drosophila melanogaster";
+"Homo sapiens";
+"Mus musculus";
+"Rattus norvegicus";
+"Saccharomyces cerevisiae";
+"Schizosaccharomyces pombe";
+"Eukarya" -- "Eukarya" [color=green, penwidth=5];
+"Eukarya" -- "Saccharomyces cerevisiae" [color=green, penwidth=5];
+"Eukarya" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
+"Eukarya" -- "Arabidopsis thaliana" [color=green, penwidth=5];
+"Eukarya" -- "Drosophila melanogaster" [color=green, penwidth=5];
+"Eukarya" -- "Homo sapiens" [color=green, penwidth=5];
+"Eukarya" -- "Mus musculus" [color=green, penwidth=5];
+"Eukarya" -- "Rattus norvegicus" [color=green, penwidth=5];
+"Volvox carteri" -- "Arabidopsis thaliana" [color=green, penwidth=5];
+"Saccharomyces cerevisiae" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
+"Caenorhabditis elegans" -- "Saccharomyces cerevisiae" [color=green, penwidth=5];
+"Caenorhabditis elegans" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
+"Caenorhabditis elegans" -- "Drosophila melanogaster" [color=green, penwidth=5];
+"Caenorhabditis elegans" -- "Caenorhabditis elegans" [color=green, penwidth=5];
+"Drosophila melanogaster" -- "Homo sapiens" [color=green, penwidth=5];
+"Homo sapiens" -- "Caenorhabditis elegans" [color=green, penwidth=5];
+"Homo sapiens" -- "Homo sapiens" [color=red, penwidth=5];
+}
