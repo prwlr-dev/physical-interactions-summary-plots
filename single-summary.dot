@@ -17,19 +17,39 @@ graph {
 "Eukarya" -- "Homo sapiens" [color=green, penwidth=5];
 "Eukarya" -- "Mus musculus" [color=green, penwidth=5];
 "Eukarya" -- "Rattus norvegicus" [color=green, penwidth=5];
-"Volvox carteri" -- "Arabidopsis thaliana" [color=green, penwidth=5];
-"Saccharomyces cerevisiae" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
+subgraph cluster_plants {
+    style=filled;
+    color=lightgrey;
+    label=plants;
+    "Volvox carteri" -- "Arabidopsis thaliana" [color=green, penwidth=5];
+}
+subgraph cluster_fungi {
+    style=filled;
+    color=lightgrey;
+    label=fungi;
+    "Saccharomyces cerevisiae" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
+}
 "Caenorhabditis elegans" -- "Saccharomyces cerevisiae" [color=green, penwidth=5];
 "Caenorhabditis elegans" -- "Schizosaccharomyces pombe" [color=green, penwidth=5];
-"Caenorhabditis elegans" -- "Drosophila melanogaster" [color=green, penwidth=5];
+subgraph cluster_worms_insects {
+    style=filled;
+    color=lightgrey;
+    label="Worms/Insects";
+    "Caenorhabditis elegans" -- "Drosophila melanogaster" [color=green, penwidth=5];
+}
 "Caenorhabditis elegans" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Drosophila melanogaster" -- "Homo sapiens" [color=green, penwidth=5];
 "Homo sapiens" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Homo sapiens" -- "Homo sapiens" [color=red, penwidth=5];
 "Mus musculus" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Mus musculus" -- "Drosophila melanogaster" [color=green, penwidth=5];
-"Mus musculus" -- "Homo sapiens" [color=green, penwidth=5];
+subgraph cluster_mammals {
+    style=filled;
+    color=lightgrey;
+    label=Mammals;
+    "Mus musculus" -- "Homo sapiens" [color=green, penwidth=5];
+    "Rattus norvegicus" -- "Homo sapiens" [color=green, penwidth=5];
+}
 "Rattus norvegicus" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Rattus norvegicus" -- "Drosophila melanogaster" [color=green, penwidth=5];
-"Rattus norvegicus" -- "Homo sapiens" [color=green, penwidth=5];
 }
