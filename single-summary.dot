@@ -26,4 +26,7 @@ graph {
 "Drosophila melanogaster" -- "Homo sapiens" [color=green, penwidth=5];
 "Homo sapiens" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Homo sapiens" -- "Homo sapiens" [color=red, penwidth=5];
+"Mus musculus" -- "Caenorhabditis elegans" [color=green, penwidth=5];
+"Mus musculus" -- "Drosophila melanogaster" [color=green, penwidth=5];
+"Mus musculus" -- "Homo sapiens" [color=green, penwidth=5];
 }
