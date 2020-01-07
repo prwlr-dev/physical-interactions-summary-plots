@@ -29,4 +29,7 @@ graph {
 "Mus musculus" -- "Caenorhabditis elegans" [color=green, penwidth=5];
 "Mus musculus" -- "Drosophila melanogaster" [color=green, penwidth=5];
 "Mus musculus" -- "Homo sapiens" [color=green, penwidth=5];
+"Rattus norvegicus" -- "Caenorhabditis elegans" [color=green, penwidth=5];
+"Rattus norvegicus" -- "Drosophila melanogaster" [color=green, penwidth=5];
+"Rattus norvegicus" -- "Homo sapiens" [color=green, penwidth=5];
 }
